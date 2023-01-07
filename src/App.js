@@ -3,7 +3,7 @@ import axios from 'axios';
 import './App.css';
 import Coin from './cryptoCoin';
 
-function CoinApi() {
+  const CoinApi = () => {
   const [coins, setCoins] = useState([]);
   const [search, setSearch] = useState('');
 
